@@ -6,7 +6,7 @@ import Portfolio from "./components/Body/Portfolio";
 import Skils from "./components/Body/Skils";
 import AboutMe from "./components/Header/AboutMe";
 import Header from "./components/Header/Header";
-
+import Footer from "./components/Footer/Footer";
 const App = () => {
   return (
     <div>
@@ -20,6 +20,7 @@ const App = () => {
           <Route path="/3" element={<Education />} />
           <Route path="/4" element={<Portfolio />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </div>
   );

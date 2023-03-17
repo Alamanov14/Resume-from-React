@@ -122,3 +122,26 @@ code {
 .navbar-brand:hover {
   border-bottom: white 2px solid;
 }
+.education {
+  display: flex;
+  justify-content: space-around;
+}
+
+.info-edu {
+  border-left: #000 2px solid;
+}
+
+#colleg {
+  margin-top: 5%;
+}
+#makers {
+  margin-top: 29%;
+}
+.edu-title {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.opisanie-par {
+  margin-left: 2%;
+}
